@@ -59,5 +59,7 @@ spec:
     service:
       enabled: true
       type: LoadBalancer
+      annotations:
+        kube-vip.io/loadBalancerIPs: "10.8.8.70"
       spec:
         loadBalancerIP: 10.8.8.70
