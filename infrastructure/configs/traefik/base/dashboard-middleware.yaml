@@ -5,4 +5,4 @@ metadata:
   namespace: traefik
 spec:
   basicAuth:
-    secret: traefik-dashboard-auth-secret
+    secret: traefik-dashboard-auth
