@@ -40,7 +40,6 @@ spec:
       websecure:
         tls:
           enabled: true
-          options: "default"
 
     providers:
       kubernetesCRD:
